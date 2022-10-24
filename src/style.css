@@ -1,1 +1,10 @@
-/*# sourceMappingURL=style.css.map */
+/* // Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap"; */
+* {
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */
