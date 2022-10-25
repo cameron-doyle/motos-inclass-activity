@@ -8,4 +8,40 @@ $prefix: "mo-";
 
 *{
 	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+	#title{
+		background-image: url(./images/pattern.jpeg);
+		font-size: 100px;
+		color: khaki;
+		text-align: center;
+	}
+}
+
+.cost {
+	font-weight: bold;
+	color: blue;
+}
+
+h2 {
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#brush { /* SCSS syntax (didn't really need it unfortunately) */
+	h2 {
+		background-color: mediumspringgreen;
+	}
+
+}
+
+#frame h2 {
+	background-color: lightcoral;
+}
+
+#paint h2{
+	background-color: orange;
 }
